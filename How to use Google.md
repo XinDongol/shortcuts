@@ -14,3 +14,5 @@
 	《books》
 ### Filetype
 	filetype:pdf   # I just want to say that you can use filetype:all
+### In url
+	inurl:your key word
