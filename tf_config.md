@@ -3,6 +3,10 @@
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = ''
 ```
+or 
+```Python
+%env CUDA_VISIBLE_DEVICES=5 # must be in iPython
+```
 
 ## Allow GPU memory growth
 ```Python
