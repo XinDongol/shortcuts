@@ -1,3 +1,15 @@
+
+## Use TF with virtualenv in Jupyter
+1. Install the ipython kernel module into your virtualenv
+```
+activate your virtualenv
+pip install ipykernel
+```
+2. Now run the kernel "self-install" script:
+```
+python -m ipykernel install --user --name=my-virtualenv-name
+```
+
 ## Only use CPU
 ```Python
 import os
