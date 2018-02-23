@@ -1,13 +1,13 @@
 ## How to use a remote Jupyter Notebook
 #####On the remote server
 
-	jupyter notebook --no-browser --port=[XXXX]
+	jupyter notebook --no-browser --port=1234
 Optional: start the notebook in tmux or screen so that you can later close the terminal while be able to run the notebook (e.g. if you are runing a lon task).
 
 #####On the local machine
 Create an ssh tunnel to the corresponding server and binding remote port XXXX to local YYYY:
 
-	ssh -f [USER]@[SERVER] -L [YYYY]:localhost:[XXXX] -N
+	ssh -f xdong@192.168.65.121 -L 1234:localhost:1234 -N
 You can now enter 
 
 	localhost:[YYYY] 
