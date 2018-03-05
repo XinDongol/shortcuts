@@ -35,11 +35,26 @@ or
 %env CUDA_VISIBLE_DEVICES=5 # must be in iPython
 ```
 
-## Allow GPU memory growth
+## Allow GPU memory growth (in Tensorflow)
 ```Python
-gpu_options=tf.GPUOptions(allow_growth=False)
-config=tf.ConfigProto(gpu_options=gpu_options)
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+config.gpu_options.visible_device_list = "0"
+session = tf.Session(config=config)
 ```
+
+## Allow GPU memory growth (in Keras)
+```Python
+if 'tensorflow' == K.backend():
+	import tensorflow as tf
+	from keras.backend.tensorflow_backend import set_session
+	config = tf.ConfigProto()
+	config.gpu_options.allow_growth = True
+	config.gpu_options.visible_device_list = "0"
+	#session = tf.Session(config=config)
+	set_session(tf.Session(config=config))
+```
+
 ## GPU Server
 | Name        | Address          | 
 | ------------- |:-------------:|
