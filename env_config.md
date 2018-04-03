@@ -24,6 +24,32 @@ pip install ipykernel
 ```
 python -m ipykernel install --user --name=my-virtualenv-name
 ```
+## Plot in Remote Server
+```Python
+	rom PyQt5 import QtCore, QtGui, QtWidgets
+	#import cv2
+	import tensorflow
+	import matplotlib
+	
+	matplotlib.use('Qt5Agg')  # if you do not want to use GUI, just use 'Agg'
+	import matplotlib.pyplot as plt
+	#plt.switch_backend('agg')
+	import numpy as np
+	
+	print("Tensorflow Imported")
+	plt.plot(np.arange(100))
+	plt.show()
+	plt.savefig('test.png')
+	plt.close()
+```
+
+## Enable X11-forward in Mac
+In `~/.ssh/config`
+
+	ForwardAgent yes
+	ForwardX11 yes
+	Compression yes
+	XAuthLocation /opt/X11/bin/xauth
 
 ## Only use CPU
 ```Python
