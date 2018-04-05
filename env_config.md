@@ -26,7 +26,8 @@ python -m ipykernel install --user --name=my-virtualenv-name
 ```
 ## Run it without hold
 ```
-nohup ./test.sh &```
+nohup ./test.sh &
+```
 
 ## Plot in Remote Server
 ```Python
