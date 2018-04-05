@@ -24,6 +24,10 @@ pip install ipykernel
 ```
 python -m ipykernel install --user --name=my-virtualenv-name
 ```
+## Run it without hold
+```
+nohup ./test.sh &```
+
 ## Plot in Remote Server
 ```Python
 	rom PyQt5 import QtCore, QtGui, QtWidgets
