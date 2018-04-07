@@ -54,6 +54,10 @@
 在变量、函数前打问号即可
 
 	?str.replace()
+
+**相同变量高亮**
+
+[jupyter_highlight_selected_word](https://github.com/jcb91/jupyter_highlight_selected_word)
 	
 **画图**
 
