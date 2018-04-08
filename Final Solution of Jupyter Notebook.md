@@ -100,7 +100,9 @@ interaction模式
 
     pick_and_take()
 
+## 如何设置主题
 
+https://github.com/dunovank/jupyter-themes
 
 
 
