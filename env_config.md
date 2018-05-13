@@ -26,7 +26,7 @@ python -m ipykernel install --user --name=my-virtualenv-name
 ```
 ## Run it without hold
 ```
-nohup ./test.sh &
+CUDA_VISIBLE_DEVICES=4,5,6,7 nohup python main_mild_first_model.py --retrain_epochs 10 >mild.out 2>&1&
 ```
 
 ## Plot in Remote Server
