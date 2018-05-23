@@ -4,4 +4,4 @@
 
 [FKILL](https://github.com/sindresorhus/fkill-cli) is a tool to kill process.
 
-[tqdm] is a fast, extensible progress bar for Python and CLI.
+tqdm is a fast, extensible progress bar for Python and CLI.
