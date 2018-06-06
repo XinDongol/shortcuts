@@ -5,3 +5,5 @@
 [FKILL](https://github.com/sindresorhus/fkill-cli) is a tool to kill process.
 
 tqdm is a fast, extensible progress bar for Python and CLI.
+
+[autojump](https://github.com/wting/autojump/wiki) is a cd command that learns - easily navigate directories from the command line
