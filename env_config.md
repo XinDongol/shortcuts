@@ -24,10 +24,18 @@ pip install ipykernel
 ```
 python -m ipykernel install --user --name=my-virtualenv-name
 ```
-## Run it without hold
+## Run it without hold 1
 ```
 CUDA_VISIBLE_DEVICES=4,5,6,7 nohup python main_mild_first_model.py --retrain_epochs 10 >mild.out 2>&1&
 ```
+## Run it without hold 2
+| CMD        | Func          | 
+| ------------- |:-------------:|
+| screen -S your_name     | build a session | 
+| Ctrl+a d      | detach s seesion      |  
+| screen -D pid.sessionname | detach remotely     |   
+| screen -r pid.sessionname | resume remotely     |  
+
 
 ## Plot in Remote Server
 ```Python
