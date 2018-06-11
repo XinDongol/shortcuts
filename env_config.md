@@ -93,6 +93,8 @@ if 'tensorflow' == K.backend():
 	#session = tf.Session(config=config)
 	set_session(tf.Session(config=config))
 ```
+## Run with rlaunch
+	rlaunch --cpu=1 --gpu=1 --memory=4096 -- python train.py	
 
 ## GPU Server
 | Name        | Address          | 
