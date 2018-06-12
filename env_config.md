@@ -95,7 +95,8 @@ if 'tensorflow' == K.backend():
 ```
 ## Run with rlaunch
 	rlaunch --cpu=1 --gpu=1 --memory=4096 -- python train.py	
-
+## Use Tensorboard on Brain++
+	ssh -N -f -L localhost:8888:localhost:6006 simonx.dongxin02.brw@wh-a-internal.brainpp.cn
 ## GPU Server
 | Name        | Address          | 
 | ------------- |:-------------:|
