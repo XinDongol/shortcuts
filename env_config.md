@@ -14,16 +14,6 @@ You can now enter
 in your favorite browser to use the remote notebook!
 
 
-## Use TF with virtualenv in Jupyter
-1. Install the ipython kernel module into your virtualenv
-```
-activate your virtualenv
-pip install ipykernel
-```
-2. Now run the kernel "self-install" script:
-```
-python -m ipykernel install --user --name=my-virtualenv-name
-```
 ## Run it without hold 1
 ```
 CUDA_VISIBLE_DEVICES=4,5,6,7 nohup python main_mild_first_model.py --retrain_epochs 10 >mild.out 2>&1&
