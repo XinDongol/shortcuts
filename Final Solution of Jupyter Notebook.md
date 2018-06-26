@@ -28,6 +28,19 @@
 	
 就可以看到jupyter的登陆界面，输入密码即可。
 
+
+## 如何在 virtualenv 使用 Jupyter
+1. Install the ipython kernel module into your virtualenv
+```
+activate your virtualenv
+pip install ipykernel
+```
+2. Now run the kernel "self-install" script:
+```
+python -m ipykernel install --user --name=my-virtualenv-name
+```
+
+
 ## 如何利用 JPT 操作文件
 
 **导入代码**
