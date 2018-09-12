@@ -14,3 +14,8 @@ sudo apt install sublime-text
 
 # cuda 9.0
 # https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73
+
+# system monitor
+sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
+sudo apt-get update
+sudo apt-get install indicator-sysmonitor
