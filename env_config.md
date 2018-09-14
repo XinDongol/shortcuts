@@ -8,6 +8,10 @@ Optional: start the notebook in tmux or screen so that you can later close the t
 Create an ssh tunnel to the corresponding server and binding remote port XXXX to local YYYY:
 
 	ssh -f xdong@192.168.65.121 -L 1234:localhost:1234 -N
+If th port was in use:
+
+	lsof -ti:5901 | xargs kill -9
+
 You can now enter 
 
 	localhost:[YYYY] 
