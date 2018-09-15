@@ -93,8 +93,11 @@ if 'tensorflow' == K.backend():
 	ssh -N -f -L localhost:8888:localhost:6006 simonx.dongxin02.brw@wh-a-internal.brainpp.cn
 	
 ## Transfer Large Filer
-	sync --progress file1 file2 user@remotemachine:/destination/directory
+  	rsync -rtu --delete --progress file1 file2 user@remotemachine:/destination/directory   # from local to server
 
+## Connect to server through a gateway or two
+	ssh -tt vivek@Jumphost ssh -tt vivek@FooServer
+[details](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/)
 ## GPU Server
 | Name        | Address          | 
 | ------------- |:-------------:|
