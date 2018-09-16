@@ -19,3 +19,8 @@ sudo apt install sublime-text
 sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
 sudo apt-get update
 sudo apt-get install indicator-sysmonitor
+
+#auto jump
+git clone git://github.com/wting/autojump.git
+cd autojump
+./install.py or ./uninstall.py
