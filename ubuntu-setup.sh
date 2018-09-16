@@ -12,6 +12,11 @@ sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
 
 sudo apt install sublime-text
 
+# chrome
+sudo apt install gdebi-core
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo gdebi google-chrome-stable_current_amd64.deb
+
 # cuda 9.0
 # https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73
 
