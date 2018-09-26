@@ -49,6 +49,8 @@ plt.show()
 plt.savefig('test.png')
 plt.close()
 ```
+## Use docker
+`sudo nvidia-docker run -it --ipc=host -v /home/simonx/Documents/Imagenet:/codes -v /media/simonx/ssdl/lmdb_imagenet:/data ufoym/deepo bash` 
 
 ## Enable X11-forward in Mac
 In `~/.ssh/config`
