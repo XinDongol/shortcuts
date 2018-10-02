@@ -17,6 +17,10 @@ You can now enter
 	localhost:[YYYY] 
 in your favorite browser to use the remote notebook!
 
+## SSh through firewall without VPN
+`ssh -R myalias:22:localhost:22 serveo.net`
+[link](https://serveo.net/#manual)
+
 
 ## Run it without hold 1
 ```
