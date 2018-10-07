@@ -112,3 +112,6 @@ if 'tensorflow' == K.backend():
 | gpu3 | 192.168.65.23     |   
 | gpu4 | 192.168.65.104     |  
 | gpu5 | 192.168.65.121     |  
+
+
+[twGPU](https://gpu.iis.sinica.edu.tw )
