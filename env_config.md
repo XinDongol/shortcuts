@@ -21,6 +21,10 @@ in your favorite browser to use the remote notebook!
 `ssh -R myalias:22:localhost:22 serveo.net`
 [link](https://serveo.net/#manual)
 
+## Use Tensorboard
+`ssh -R remotetb:80:localhost:6006 serveo.net`
+
+[jupyter-tensorboard](https://github.com/lspvic/jupyter_tensorboard)
 
 ## Run it without hold 1
 ```
