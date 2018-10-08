@@ -24,6 +24,8 @@ in your favorite browser to use the remote notebook!
 ## Use Tensorboard
 `ssh -R remotetb:80:localhost:6006 serveo.net`
 
+[use ngrok (more stable than serveo)](https://ngrok.com/download)
+
 [jupyter-tensorboard](https://github.com/lspvic/jupyter_tensorboard)
 [jupyterlab-tensorboard](https://github.com/chaoleili/jupyterlab_tensorboard)
 
