@@ -25,6 +25,7 @@ in your favorite browser to use the remote notebook!
 `ssh -R remotetb:80:localhost:6006 serveo.net`
 
 [jupyter-tensorboard](https://github.com/lspvic/jupyter_tensorboard)
+[jupyterlab-tensorboard](https://github.com/chaoleili/jupyterlab_tensorboard)
 
 ## Run it without hold 1
 ```
