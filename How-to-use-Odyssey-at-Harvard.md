@@ -44,3 +44,11 @@ then input proper url on your local browser
 
 ### 2. Use Virtual Desktop
 [How-to](https://www.rc.fas.harvard.edu/resources/documentation/virtual-desktop/)
+
+### Issues
+
+Issues:
+`_2018-10-07 12:40:45.846093: I tensorflow/stream_executor/dso_loader.cc:141] Couldn't open CUDA library libcupti.so.9.0. LD_LIBRARY_PATH: /usr/local/cuda-9.0/lib64 2018-10-07 12:40:45.846370: F tensorflow/stream_executor/lib/statusor.cc:34] Attempting to fetch value instead of handling error Failed precondition: could not dlopen DSO: libcupti.so.9.0; dlerror: libcupti.so.9.0: cannot open shared object file: No such file or directory_`
+
+Solution:
+`_export LD_LIBRARY_PATH="/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda-9.0/lib64:/usr/local/cuda-9.0/extras/CUPTI/lib64"_`
