@@ -45,6 +45,13 @@ then input proper url on your local browser
 ### 2. Use Virtual Desktop
 [How-to](https://www.rc.fas.harvard.edu/resources/documentation/virtual-desktop/)
 
+### 3. Query
+
+#### Check your score
+`sshare -U`
+#### See jobs of one partition
+
+
 ### Issues
 
 Issues:
