@@ -5,6 +5,8 @@
 
 [How to use Git](http://rogerdudler.github.io/git-guide/index.zh.html)
 
+[TLDR](https://github.com/tldr-pages/tldr) is a collection of simplified and community-driven man pages.
+
 ### Python Packages
 tqdm is a fast, extensible progress bar for Python and CLI.
 
