@@ -121,7 +121,7 @@ if 'tensorflow' == K.backend():
 | gpu5 | 192.168.65.121     |  
 
 
-[twGPU](https://gpu.iis.sinica.edu.tw )
+[twGPU](https://gpu.sinica.edu.tw )
 
 ## Download form Google Drive with Python
 [download_google_drive](https://github.com/chentinghao/download_google_drive)
