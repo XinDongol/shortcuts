@@ -45,7 +45,14 @@ then input proper url on your local browser
 ### 2. Use Virtual Desktop
 [How-to](https://www.rc.fas.harvard.edu/resources/documentation/virtual-desktop/)
 
-### 3. Query
+### 3. Check Status
+1. Why pending
+`squeue	-u	simonx	-t	PD	-o	"%.18i	%.9P	%.8j	%.8u	%.2t	%.10M	%.6D	%R	%C"`
+2. Your	priority	in	the	scheduling	queue
+`showq-slurm -p seas_dgx1_priority -o`
+3. Fair-share
+`sshare -u simonx | grep simonx`
+
 
 #### Check your score
 `sshare -U`
