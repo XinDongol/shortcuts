@@ -54,11 +54,6 @@ then input proper url on your local browser
 `sshare -u simonx | grep simonx`
 
 
-#### Check your score
-`sshare -U`
-#### See jobs of one partition
-
-
 ### Issues
 
 Issues:
