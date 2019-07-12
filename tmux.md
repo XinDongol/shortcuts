@@ -29,5 +29,5 @@ Killing a session:
 `tmux kill-session -t session-name`
 
 
-![](./tmuxshorcut.png)
+![](./tmuxshortcut.png)
 
