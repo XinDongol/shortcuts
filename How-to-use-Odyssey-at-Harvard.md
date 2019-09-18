@@ -2,6 +2,10 @@
 ### Load CUDA
 `module load cuda/9.0-fasrc02 cudnn/7.0_cuda9.0-fasrc01`
 
+If you want to use TF>=1.4 and PyTorch>=1.1
+
+`module load cuda/10.0.130-fasrc01 cudnn/7.4.1.5_cuda10.0-fasrc01`
+
 ## Connect
 ### 1. Use Jupyter Lab
 ##### On Odyssey:
